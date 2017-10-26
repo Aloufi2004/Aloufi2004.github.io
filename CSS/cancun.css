@@ -1,0 +1,240 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border: 1px solid white;
+    background: ;
+    border-left:none;
+    border-right: none;
+    padding-bottom: -2px;
+    word-spacing: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    text-decoration: none;
+}
+.bgimg-1{
+    background-image:url("https://www.acsu.buffalo.edu/~scotthum/cancun-mexico.jpg");
+    height: 100%;
+    width: 100%;
+    padding:260px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+    
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: 'Josefin Slab', serif;
+}
+
+.caption span.border {
+  background-color: brown;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.pic1{
+  float:right;
+  margin-bottom: 100px;
+  width:500px;
+  margin-top: 50px;
+}
+.tit1{
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  color: brown;
+
+}
+
+ul.acti{
+  padding:10px;
+  word-spacing: 0px;
+}
+
+.acti1{
+  display:block;
+  padding:20px;
+  color:white;
+  background: brown;
+}
+#ac{
+  float: right;
+  border:1px solid brown;
+  border-right: none;
+  background: brown;
+  color: white;
+  border-top-left-radius: 2em;
+  border-style: solid;
+  margin-top: 90px;
+  padding: 0 28px;
+}
+
+.travel-logo{
+  float:left;
+  font-size:50px;
+  font-family: 'Sacramento', cursive;
+  padding: 0px 20px;
+  background: white;
+  color:brown; 
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+.book{
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px;
+  border: 1px solid brown;
+  border-radius: 50px;
+  color:white;
+  background: brown;
+  word-spacing: 0px;
+}
+.book:hover{
+  color:brown;
+  background:white;
+}
+
+h2{
+  font-family: 'Josefin Slab', serif;
+
+
+}
+p{
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+  word-spacing: 9px;
+  line-height: 40px;
+}
+
+#intro{
+  border:1px solid brown;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 180px; 
+  margin-left: 40px;
+  color:brown;
+}
+
+.pic2{
+  width: 500px;
+  float: left;
+}
+.con{
+  background: #fff;
+  color:white;
+  margin:0px;
+  text-align: center;
+  position: relative;
+}
+.closer{
+  font-size: 40px;
+  color:brown;
+}
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.text{
+  border-radius:50px;
+  border: 1px solid brown;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.end{
+  background: brown;
+  margin: 0px;
+}
+.foot{
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    margin: 0;
+    padding: 50px;
+}
+
+.share{
+  float: left;
+  color:white;
+}
+#twitter{
+  color: blue;
+}
+.video{
+  border:0px;
+  position: relative;
+  margin:auto;
+  border-radius: 45px;
+}
+#book{
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px;
+  border: 1px solid brown;
+  border-radius: 50px;
+  color:white;
+  background: brown;
+  word-spacing: 0px;
+}
+#book:hover{
+  color:brown;
+  background:white;
+}
+.modal-header{
+  background: brown;
+  padding:20px;
+}
+.modal-title{
+  text-align: center;
+  color:white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+
+}

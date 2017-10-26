@@ -1,0 +1,352 @@
+.name{
+  color: yellow;
+  font-family: 'Josefin Slab', serif;
+}
+h2{
+  font-family: 'Josefin Slab', serif;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border: 1px solid white;
+    background-color:white ;
+    border-left:none;
+    border-right: none;
+    padding-bottom: -2px;
+    word-spacing: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+li {
+    text-align: center;
+    display: inline;
+    background: white;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    text-decoration: none;
+}
+
+
+p{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-align: center;
+  line-height: 200%
+}
+.glyphicon-send{
+  color:brown;
+  font-size: 500px;
+}
+
+.text1{
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dubai{
+  width: 50%;
+  float: left;
+  margin-bottom: 110px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+
+}
+.cancun{
+  width: 50%;
+  float: right;
+  margin-bottom:110px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+
+}
+
+img{
+  display:block;
+  margin: 0 auto;
+}
+#dubai{
+  border: 1px solid brown;
+  margin: 47px;
+  float: right;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 150px;
+}
+#malta{
+  border: 1px solid brown;
+  margin:60px;
+  float:right;
+  border-right: none;
+  border-left: none;
+
+
+
+}
+#cancun{
+  border: 1px solid brown;
+  margin: 47px;
+  float: left;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 130px;
+
+}
+
+.end{
+  background: brown;
+  margin: 0px;
+}
+footer{
+    margin-top: 109%;
+}
+.foot{
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.share{
+  float: left;
+  color:white;
+}
+table, td, th {    
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.pass{
+  width:500px;
+}
+.travel-logo{
+  float:left;
+  font-size:50px;
+  font-family: 'Sacramento', cursive;
+  border: 1px solid white;
+  padding: 0px 20px;
+  border-left:none;
+  border-top-right-radius:20px;
+  background: white;
+  color:brown;
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+#book{
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px;
+  border: 1px solid brown;
+  border-radius: 50px;
+  color:white;
+  background: brown;
+  word-spacing: 0px;
+}
+#book:hover{
+  color:brown;
+  background:white;
+}
+@media screen and (max-width: 1365px) {
+  ul,li,#book, .travel-logo, #malta,#dubai,#cancun, .dubai, .cancun, .pass, .foot,.col-sm-6, #googleMap, .caption, .bgimg-1{
+    display: none;
+  }
+  .bgimg-2{
+    background-image: url("https://www.hdwallpapers.in/walls/grand_canal_venice_italy_4k-wide.jpg");
+    min-height: 100%;
+    min-width: 100%;
+    padding:260px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: -360px;
+
+  }
+
+
+  .view1 {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center!important;
+    color: #000;
+    font-family: 'Josefin Slab', serif;
+    color:white;
+  }
+
+  .view1 span.word {
+    display: block !important;
+    background-color: brown;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color:white;
+
+  }
+}
+
+button{
+  color:brown;
+}
+.view1{
+  display: none;
+}
+
+.end{
+  padding: 30px;
+}
+.modal-header{
+  background: brown;
+  padding:20px;
+}
+.modal-title{
+  text-align: center;
+  color:white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+
+}
+
+h4{
+  font-family: 'Josefin Slab', serif;
+  
+}
+.fa-instagram{
+  font-size: 35px;
+  float: left;
+  margin-left: 15%;
+  color:black;
+}
+.fa-instagram:hover{
+  color:#4B78C1;
+}
+.fa-twitter{
+  font-size:35px;
+  float: left;
+  color:black;
+}
+.fa-twitter:hover{
+  color:blue;
+}
+.fa-google-plus-official{
+  font-size:35px;
+  color:black;
+}
+.fa-google-plus-official:hover{
+  color:red;
+}
+.fa-facebook-square{
+  font-size:35px;
+  color:black;
+}
+.fa-facebook-square:hover{
+  color:blue;
+}
+.text{
+  border-radius:50px;
+  border: 1px solid brown;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    margin-left: 15%;
+    margin-top: 7%;
+    line-height: 100%;
+    font-weight: 900;
+}
+.spec{
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.image{
+    width: 53%;
+    padding-top: 6%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 100px;
+
+
+}
+.button{
+    background:brown;
+    color:white;
+    border-top-right-radius: 20px;
+    border:0px;
+    margin-left: 15%;
+    padding:2%;
+    border-bottom-left-radius: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-family: 'PT Sans', sans-serif;   
+    box-shadow: 8px 8px  10px  #888888;
+    
+    
+}
+.alink{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size:20px;
+    color:brown;
+    
+}
+.glyphicon-circle-arrow-right{
+    font-size:30px;
+    margin-top:20px;
+}
+/* for google map API */
+#googleMap{
+    width:40%;
+    height:600px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    float: right;
+    margin-right:5%;
+    box-shadow: 8px 8px  10px  #888888;
+}
+
+.more{
+  color:white;
+
+}
+.more:hover{
+  color:white;
+}

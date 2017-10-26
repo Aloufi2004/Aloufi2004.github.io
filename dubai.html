@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/icon.png" type="image/png">
+		<title>Travel | Dubai</title> 
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Josefin+Sans" rel="stylesheet">
+   		<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">  
+   		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   		<link rel="stylesheet" href="css/dubai.css">
+	</head>
+
+
+
+	<body>
+			<ul>
+					<li class="travel-logo">Travel</li>
+					<li><a href="plain.html">Home</a></li>
+					<li><a href="dubai.html">Dubai</a></li>
+					<li><a href="malta.html">Malta</a></li>
+					<li><a href="cancun.html" >Cancun</a></li>
+					<li><button type="button" class="btn btn-default btn-lg" id="book" data-toggle="modal" data-target="#myModal">Buy Tickets</button></li>
+			</ul>
+		<div class="bgimg-1">
+		  <div class="caption">
+		    <span class="border">Dubai, UAE </span>
+		  </div>
+		</div>
+		<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+				
+				  <!-- content inside the modal -->
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Tickets</h4>
+					</div>
+					<div class="modal-body">
+					  <form action="/action.php">
+						  <h4>First Name:<br><input type="text" class="text"></h4> 
+						  <h4>Last Name: <br> <input type="text" class="text"></h4>
+						  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
+						  <h4 class="right"># of Tickets <br><input type="number"></h4>
+						  <button class="btn btn-success btn-lg">Submit</button> 
+						  <h2> Pricing: </h2>
+						  <table border="1">
+							<tr>
+							  <th># Of Tickets</th>
+							  <th>Age 0-8</th> 
+							  <th>Age 9+</th>
+							</tr>
+							<tr>
+							  <td>1</td>
+							  <td rowspan="2">$20</td>
+							  <td>$43</td>
+							</tr>
+							<tr>
+							  <td>2</td>
+							  <td>$86</td>
+							</tr>
+							<tr>
+							  <td>3</td>
+							  <td>$60</td>
+							  <td>$129</td>
+							</tr>
+						  </table>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				  
+				</div>
+			  </div>
+			  
+			</div>
+		<br><br><br>
+		<div class="col-sm-4" id="intro">
+			<h2> Why Dubai? </h2>
+			<p> Dubai is very popular place for tourists. Many people go there becuase of the amazing food, view, and activities. Dubai is a diverse city. You will find people from all around the world. Also, you will see alot of sport cars there. Dubai is an expensive city to live in, that's why many people who live there are rich. </p>
+		</div>
+		<img src="images/burja.svg" class="flag"><br><br><br><br><br><br>
+		<div id="burj">
+			<p class="burj"><i class="fa fa-quote-left" ></i> Dubai is home of the tallest building in the whole world. The building is know as Burj Khalifa. <br>The building's height is 2,717′, 2,722′ to tip. The cost of building Burj Khalifa is  1.7 billion USD<br><i class="fa fa-quote-right"></i></p><br>
+			<p><a href="http://www.burjkhalifa.ae/en/index.aspx" target="_blank">Learn more</a> </p>
+		</div><br><br><Br><br><br><br><Br><br><br><br><Br><br><br><br><Br><br><br><br><Br><br>
+		<div class="col-sm-4" id="vid">
+			<h2 class="more"> More about Dubai </h2><br><br>
+			<p> Dubai is very famous for the activities there. You may have heard of SkyDubai, it's a skydiving company in Dubai. Dubai is also famous for the food, diversity, and adventutes. Here is a video that shows you more about Dubai </p>
+		</div>
+		<iframe src="https://www.youtube.com/embed/_xmIF1NOVgw" class="video" width="800px" height="400px"></iframe><br><br>
+
+		<script>
+			window.sr = ScrollReveal();
+			sr.reveal('h2');
+			sr.reveal('p');
+			sr.reveal('.video');
+
+		</script>
+
+
+		<footer>
+			<div class="end">
+				<h3 class="foot"> Made by Turki Aloufi <br> 	&copy;2017 by Turki's Corporations </h3>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,190 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border: 1px solid white;
+    background-color:white ;
+    border-left:none;
+    border-right: none;
+    padding-bottom: -2px;
+    word-spacing: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h2{
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  font-weight: bold;  
+
+}
+li {
+    text-align: center;
+    display: inline;
+    background: white;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    text-decoration: none;
+}
+.bgimg-1{
+  background-image: url("https://a1.odistatic.net/images/landingpages/vacation/1920x800/malta_1920x800.jpg");
+  z-index:-1;
+  min-height: 100%;
+  min-width: 100%;
+  padding:260px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center!important;
+  color: #000;
+  font-family: 'Josefin Slab', serif;
+}
+
+.caption span.border {
+  background-color: brown;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 3px;
+
+}
+.travel-logo{
+  float:left;
+  font-size:50px;
+  font-family: 'Sacramento', cursive;
+  border: 1px solid white;
+  padding: 0px 20px;
+  border-left:none;
+  border-top-right-radius:20px;
+  background: white;
+  color:brown;
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+#book{
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px;
+  border: 1px solid #A52828;
+  border-radius: 50px;
+  color:white;
+  background: brown;
+  word-spacing: 0px;
+}
+table, td, th {    
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.text{
+  border-radius:50px;
+  border: 1px solid brown;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+#book:hover{
+  color:brown;
+  background:white;
+}
+.modal-header{
+  background: brown;
+  padding:20px;
+}
+.modal-title{
+  text-align: center;
+  color:white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+
+}
+p{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-align: center;
+  line-height: 200%;
+}
+.fa-quote-left{
+  color:brown;
+  font-size: 50px;
+
+}
+.fa-quote-right{
+  color:brown;
+  font-size: 50px;
+}
+#quote{
+  margin-top: 90px;
+  margin-left: 40px;
+}
+.canoe{
+  width: 500px;
+  float:right;
+  margin-top: 60px;
+  margin-right: 90px;
+}
+#more{
+  margin-top: 20%;
+  float:right;
+  margin-right: 3%;
+}
+.mal{
+  width:700px;
+  position: relative;
+  margin-top: 8%; 
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.story{
+  text-align: center;
+  margin-top:10%;
+}
+.buzz{
+  border:none;
+  border-radius:50px;
+}
+.end{
+  background: brown;
+  margin: 0px;
+  position: relative;
+}
+
+.foot{
+    font-family: 'Josefin Slab', serif;
+    color:white;
+    margin: 0;
+    padding: 50px;
+}

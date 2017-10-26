@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/icon.png" type="image/png">
+		<title>Travel | Malta</title> 
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Josefin+Sans" rel="stylesheet">
+   		<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">  
+   		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   		<link rel="stylesheet" href="css/malta.css">
+	</head>
+	<body>
+		<ul>
+				<li class="travel-logo">Travel</li>
+				<li><a href="plain.html">Home</a></li>
+				<li><a href="dubai.html">Dubai</a></li>
+				<li><a href="malta.html">Malta</a></li>
+				<li><a href="cancun.html" >Cancun</a></li>
+				<li><button type="button" class="btn btn-default btn-lg" id="book" data-toggle="modal" data-target="#myModal">Buy Tickets</button></li>
+		</ul>
+		<div class="bgimg-1">
+		  <div class="caption">
+		    <span class="border" onclick="change()">Malta, Europe</span>
+		  </div>
+		</div>
+		<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+				
+				  <!-- content inside the modal -->
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Tickets</h4>
+					</div>
+					<div class="modal-body">
+					  <form action="/action.php">
+						  <h4>First Name:<br><input type="text" class="text"></h4> 
+						  <h4>Last Name: <br> <input type="text" class="text"></h4>
+						  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
+						  <h4 class="right"># of Tickets <br><input type="number"></h4>
+						  <button class="btn btn-success btn-lg">Submit</button> 
+						  <h2> Pricing: </h2>
+						  <table border="1">
+							<tr>
+							  <th># Of Tickets</th>
+							  <th>Age 0-8</th> 
+							  <th>Age 9+</th>
+							</tr>
+							<tr>
+							  <td>1</td>
+							  <td rowspan="2">$20</td>
+							  <td>$43</td>
+							</tr>
+							<tr>
+							  <td>2</td>
+							  <td>$86</td>
+							</tr>
+							<tr>
+							  <td>3</td>
+							  <td>$60</td>
+							  <td>$129</td>
+							</tr>
+						  </table>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				  
+				</div>
+			  </div>
+			  
+			</div>
+
+		<div class="col-sm-4" id="quote">
+			<h2>Malta?</h2> 
+			<p><i class="fa fa-quote-left" ></i>  Malta is an archipelago in the central Mediterranean between Sicily and the North African coast. It's a nation known for historic sites related to a succession of rulers including the Romans, Moors, Knights of Saint John, French and British. It has numerous fortresses, megalithic temples and the Ħal Saflieni Hypogeum, a subterranean complex of halls and burial chambers dating to circa 4000 B.C.<br><i class="fa fa-quote-right"></i><br><a href="http://www.visitmalta.com/en/home" class="link">More about Malta</a></p><br>
+		</div>
+		<img src="images/canoe.svg" class="canoe"><br><br><Br><br>
+	<br><BR><BR>	
+		<div class="col-sm-4" id="more">
+			<h2> Malta!</h2>
+			<p> Malta is a hidden place for most people. Most people don't know where is Malta. Malta has a population of 436,947 people. There are alot of sport events that are hosted in Malta becuase of the great geographic location. Actually, Malta was founded in 1964.</p>
+		</div>
+		<img src="images/malta1.jpg" class="mal"><br><Br><br>
+			<div class="story">
+				<h2> A True Story!</h2><br><br>
+				<iframe src="https://www.youtube.com/embed/JoNj0KDuDR8" class="buzz" width="900px" height="500px"></iframe>
+			</div>
+			<script>
+				window.sr = ScrollReveal();
+				sr.reveal('#more');
+				sr.reveal('.mal');
+				sr.reveal('#quote');
+				sr.reveal('.canoe');
+				sr.reveal('.story');
+			</script><br><br><Br><br></Br>
+			<footer>
+				<div class="end">
+					<h3 class="foot"> Made by Turki Aloufi <br> 	&copy;2017 by Turki Corporations <br> </h3>
+				</div>
+			</footer>
+	</body>
+
+</html>
