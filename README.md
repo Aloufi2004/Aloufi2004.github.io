@@ -346,46 +346,46 @@
                 </a><br> <br><br><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram" ></i></a>&nbsp;<a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus-official"></i></a>&nbsp;<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>&nbsp;<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a><Br></Br>
                 
             </div><br>
-            <div id="googleMap"></div>
-		</header>
-		<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-				
-				  <!-- content inside the modal -->
-				  <div class="modal-content">
-					<div class="modal-header">
-					  <button type="button" class="close" data-dismiss="modal">&times;</button>
-					  <h4 class="modal-title">Tickets</h4>
-					</div>
-					<div class="modal-body">
-					  <form action="/action.php">
-						  <h4>First Name:<br><input type="text" class="text"></h4> 
-						  <h4>Last Name: <br> <input type="text" class="text"></h4>
-						  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
-						  <h4 class="right"># of Tickets <br><input type="number"></h4>
-						  <button class="btn btn-success btn-lg">Submit</button> 
-						  <h2> Pricing: </h2>
-						  <table border="1">
-							<tr>
-							  <th># Of Tickets</th>
-							  <th>Age 0-8</th> 
-							  <th>Age 9+</th>
-							</tr>
-							<tr>
-							  <td>1</td>
-							  <td rowspan="2">$20</td>
-							  <td>$43</td>
-							</tr>
-							<tr>
-							  <td>2</td>
-							  <td>$86</td>
-							</tr>
-							<tr>
-							  <td>3</td>
-							  <td>$60</td>
-							  <td>$129</td>
-							</tr>
-						  </table>
+           <div id="googleMap"></div>
+	</header>
+	<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- content inside the modal -->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Tickets</h4>
+				</div>
+				<div class="modal-body">
+				  <form action="/action.php">
+					  <h4>First Name:<br><input type="text" class="text"></h4> 
+					  <h4>Last Name: <br> <input type="text" class="text"></h4>
+					  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
+					  <h4 class="right"># of Tickets <br><input type="number"></h4>
+					  <button class="btn btn-success btn-lg">Submit</button> 
+					  <h2> Pricing: </h2>
+					  <table border="1">
+						<tr>
+						  <th># Of Tickets</th>
+						  <th>Age 0-8</th> 
+						  <th>Age 9+</th>
+						</tr>
+						<tr>
+						  <td>1</td>
+						  <td rowspan="2">$20</td>
+						  <td>$43</td>
+						</tr>
+						<tr>
+						  <td>2</td>
+						  <td>$86</td>
+				        	</tr>
+						<tr>
+						 <td>3</td>
+						 <td>$60</td>
+	   				         <td>$129</td>
+						</tr>
+					  </table>
 					</div>
 					<div class="modal-footer">
 					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
