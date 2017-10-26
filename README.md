@@ -1,463 +1,463 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="icon" href="https://image.flaticon.com/icons/svg/201/201623.svg">
-		<title>Travel</title> 		
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Josefin+Sans" rel="stylesheet">
-   		<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">  
-   		 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-   		 <link href="https://fonts.googleapis.com/css?family=Montserrat:700|PT+Sans:700" rel="stylesheet">
-   		 <link rel="stylesheet" href="css/plain.css">
-		<style>
-			.name{
-			  color: yellow;
-			  font-family: 'Josefin Slab', serif;
-			}
-			h2{
-			  font-family: 'Josefin Slab', serif;
+				<!DOCTYPE html>
+				<html>
+					<head>
+						<meta charset="utf-8">
+						<link rel="icon" href="https://image.flaticon.com/icons/svg/201/201623.svg">
+						<title>Travel</title> 		
+						<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One" rel="stylesheet">
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+						<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+						<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+						<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+						<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Josefin+Sans" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">  
+						 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+						 <link href="https://fonts.googleapis.com/css?family=Montserrat:700|PT+Sans:700" rel="stylesheet">
+						 <link rel="stylesheet" href="css/plain.css">
+						<style>
+							.name{
+							  color: yellow;
+							  font-family: 'Josefin Slab', serif;
+							}
+							h2{
+							  font-family: 'Josefin Slab', serif;
 
-			}
+							}
 
-			ul {
-			    list-style-type: none;
-			    margin: 0px;
-			    padding: 10px;
-			    overflow: hidden;
-			    background-color: white;
-			    text-align: center;
-			    border: 1px solid white;
-			    background-color:white ;
-			    border-left:none;
-			    border-right: none;
-			    padding-bottom: -2px;
-			    word-spacing: 20px;
-			    font-family: 'Josefin Sans', sans-serif;
+							ul {
+							    list-style-type: none;
+							    margin: 0px;
+							    padding: 10px;
+							    overflow: hidden;
+							    background-color: white;
+							    text-align: center;
+							    border: 1px solid white;
+							    background-color:white ;
+							    border-left:none;
+							    border-right: none;
+							    padding-bottom: -2px;
+							    word-spacing: 20px;
+							    font-family: 'Josefin Sans', sans-serif;
 
-			}
+							}
 
-			li {
-			    text-align: center;
-			    display: inline;
-			    background: white;
-			}
+							li {
+							    text-align: center;
+							    display: inline;
+							    background: white;
+							}
 
-			li a{
-			    display: inline-block;
-			    color: black;
-			    text-align: center;
-			    padding: 14px 16px;
-			    text-decoration: none;
-			    margin-top: 20px;
-			    font-size: 17px;
-			}
+							li a{
+							    display: inline-block;
+							    color: black;
+							    text-align: center;
+							    padding: 14px 16px;
+							    text-decoration: none;
+							    margin-top: 20px;
+							    font-size: 17px;
+							}
 
-			li a:hover, .dropdown:hover .dropbtn {
-			    background-color: white;
-			    text-decoration: none;
-			}
-
-
-			p{
-			  font-family: 'Poiret One', cursive;
-			  font-size: 20px;
-			  text-align: center;
-			  line-height: 200%
-			}
-			.glyphicon-send{
-			  color:brown;
-			  font-size: 500px;
-			}
-
-			.text1{
-			  font-family: 'Josefin Slab', serif;
-			  font-weight: bold;
-			  text-align: center;
-			}
-
-			.dubai{
-			  width: 45%;
-			  float: left;
-			  margin-bottom: 110px;
-			  border-top-right-radius: 50px;
-			  border-bottom-right-radius: 50px;
+							li a:hover, .dropdown:hover .dropbtn {
+							    background-color: white;
+							    text-decoration: none;
+							}
 
 
-			}
-			.cancun{
-			  width: 50%;
-			  float: right;
-			  border-top-left-radius: 50px;
-			  border-bottom-left-radius: 50px;
-			}
+							p{
+							  font-family: 'Poiret One', cursive;
+							  font-size: 20px;
+							  text-align: center;
+							  line-height: 200%
+							}
+							.glyphicon-send{
+							  color:brown;
+							  font-size: 500px;
+							}
 
-			img{
-			  display:block;
-			  margin: 0 auto;
-			}
-			#dubai{
-			  border: 1px solid brown;
-			  margin: 47px;
-			  float: right;
-			  border-right: none;
-			  border-left: none;
-			  margin-bottom: 150px;
-			}
-			#malta{
-			  border: 1px solid brown;
-			  margin: 40px;
-			  margin-top: 6%;
-			  float: right;
-			  border-right: none;
-			  border-left: none;
-			  margin-bottom: 150px;
+							.text1{
+							  font-family: 'Josefin Slab', serif;
+							  font-weight: bold;
+							  text-align: center;
+							}
+
+							.dubai{
+							  width: 45%;
+							  float: left;
+							  margin-bottom: 110px;
+							  border-top-right-radius: 50px;
+							  border-bottom-right-radius: 50px;
 
 
+							}
+							.cancun{
+							  width: 50%;
+							  float: right;
+							  border-top-left-radius: 50px;
+							  border-bottom-left-radius: 50px;
+							}
 
-			}
-			#cancun{
-			  border: 1px solid brown;
-			  margin: 47px;
-			  float: left;
-			  border-right: none;
-			  border-left: none;
-			}
-
-			.end{
-			  background: brown;
-			  margin: 0px;
-			}
-			footer{
-			    margin-top: 109%;
-			}
-			.foot{
-			    font-family: 'Josefin Slab', serif;
-			    color:white;
-			    margin: 0;
-			    padding: 20px;
-			}
-
-
-			.share{
-			  float: left;
-			  color:white;
-			}
-			table, td, th {    
-			  border: 1px solid #ddd;
-			  text-align: left;
-			}
-
-			table {
-			  border-collapse: collapse;
-			  width: 100%;
-			}
-
-			th, td {
-			  padding: 15px;
-			}
-
-			.pass{
-			  width:500px;
-			}
-			.travel-logo{
-			  float:left;
-			  font-size:50px;
-			  font-family: 'Sacramento', cursive;
-			  border: 1px solid white;
-			  padding: 0px 20px;
-			  border-left:none;
-			  border-top-right-radius:20px;
-			  background: white;
-			  color:brown;
-			  margin-left: 10px;
-			  font-weight: bold;
-
-			}
-			#book{
-			  margin-top: 15px;
-			  float: right;
-			  margin-right: 50px;
-			  border: 1px solid brown;
-			  border-radius: 50px;
-			  color:white;
-			  background: brown;
-			  word-spacing: 0px;
-			}
-			#book:hover{
-			  color:brown;
-			  background:white;
-			}
-			
-
-			button{
-			  color:brown;
-			}
-			.view1{
-			  display: none;
-			}
-
-			.end{
-			  padding: 30px;
-			}
-			.modal-header{
-			  background: brown;
-			  padding:20px;
-			}
-			.modal-title{
-			  text-align: center;
-			  color:white;
-			  font-family: 'Josefin Slab', serif;
-			  font-size: 40px;
-
-			}
-
-			h4{
-			  font-family: 'Josefin Slab', serif;
-
-			}
-			.fa-instagram{
-			  font-size: 35px;
-			  float: left;
-			  margin-left: 15%;
-			  color:black;
-			}
-			.fa-instagram:hover{
-			  color:#4B78C1;
-			}
-			.fa-twitter{
-			  font-size:35px;
-			  float: left;
-			  color:black;
-			}
-			.fa-twitter:hover{
-			  color:blue;
-			}
-			.fa-google-plus-official{
-			  font-size:35px;
-			  color:black;
-			}
-			.fa-google-plus-official:hover{
-			  color:red;
-			}
-			.fa-facebook-square{
-			  font-size:35px;
-			  color:black;
-			}
-			.fa-facebook-square:hover{
-			  color:blue;
-			}
-			.text{
-			  border-radius:50px;
-			  border: 1px solid brown;
-			}
-			h1{
-			    font-size: 50px;
-			    font-family: 'Josefin Sans', sans-serif;
-			    float: left;
-			    margin-left: 15%;
-			    margin-top: 7%;
-			    line-height: 100%;
-			    font-weight: 900;
-			}
-			.spec{
-			    float: left;
-			    text-align: left;
-			    font-weight: bold;
-			    margin-left: 15%;
-			}
-
-			.image{
-			    width: 53%;
-			    padding-top: 6%;
-			    border-top-right-radius: 0px;
-			    border-bottom-left-radius: 100px;
+							img{
+							  display:block;
+							  margin: 0 auto;
+							}
+							#dubai{
+							  border: 1px solid brown;
+							  margin: 47px;
+							  float: right;
+							  border-right: none;
+							  border-left: none;
+							  margin-bottom: 150px;
+							}
+							#malta{
+							  border: 1px solid brown;
+							  margin: 40px;
+							  margin-top: 6%;
+							  float: right;
+							  border-right: none;
+							  border-left: none;
+							  margin-bottom: 150px;
 
 
-			}
-			.button{
-			    background:brown;
-			    color:white;
-			    border-top-right-radius: 20px;
-			    border:0px;
-			    margin-left: 15%;
-			    padding:2%;
-			    border-bottom-left-radius: 20px;
-			    padding-left:20px;
-			    padding-right: 20px;
-			    font-family: 'PT Sans', sans-serif;   
-			    box-shadow: 8px 8px  10px  #888888;
+
+							}
+							#cancun{
+							  border: 1px solid brown;
+							  margin: 47px;
+							  float: left;
+							  border-right: none;
+							  border-left: none;
+							}
+
+							.end{
+							  background: brown;
+							  margin: 0px;
+							}
+							footer{
+							    margin-top: 109%;
+							}
+							.foot{
+							    font-family: 'Josefin Slab', serif;
+							    color:white;
+							    margin: 0;
+							    padding: 20px;
+							}
 
 
-			}
-			.alink{
-			    font-family: 'Poiret One', cursive;
-			    font-weight: bold;
-			    font-size:20px;
-			    color:brown;
+							.share{
+							  float: left;
+							  color:white;
+							}
+							table, td, th {    
+							  border: 1px solid #ddd;
+							  text-align: left;
+							}
 
-			}
-			.glyphicon-circle-arrow-right{
-			    font-size:30px;
-			    margin-top:20px;
-			}
-			/* for google map API */
-			#googleMap{
-			    width:40%;
-			    height:600px;
-			    border-top-right-radius: 100px;
-			    border-bottom-left-radius: 100px;
-			    float: right;
-			    margin-right:5%;
-			    box-shadow: 8px 8px  10px  #888888;
-			}
+							table {
+							  border-collapse: collapse;
+							  width: 100%;
+							}
 
-			.more{
-			  color:white;
+							th, td {
+							  padding: 15px;
+							}
 
-			}
-			.more:hover{
-			  color:white;
-			}
-				
-		</style>
-	</head>
-	<body>
-		<ul>
-			<li class="travel-logo">Travel</li>
-			<li><a href="plain.html">Home</a></li>
-			<li><a href="dubai.html">Dubai</a></li>
-			<li><a href="malta.html">Malta</a></li>
-			<li><a href="cancun.html" >Cancun</a></li>
-			<li><button type="button" class="btn btn-default btn-lg" id="book" data-toggle="modal" data-target="#myModal">Buy Tickets</button></li>
-        </ul>
-        
-        <header>
-            <div class="col-sm-5">
-                <h1>VACATION,<br> HAPPINESS,<br> DESIRE,<br> MEMORIES ALL START HERE. </h1> 
-                <p class="spec"> Many of the best vacation spots are being shown on this website. Dubai, Malta and Cancun are very beautiful places located very far from each other. If you thought the US is a beautiful place, think otherwise. Just have fun! </p>
-                <button class="button"><a  href="https://www.google.com" target="_blank" class="more"> Learn more</a></button> &nbsp;&nbsp; <a href="#pictures" class="alink">   Start browsing
-                </a><br> <br><br><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram" ></i></a>&nbsp;<a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus-official"></i></a>&nbsp;<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>&nbsp;<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a><Br></Br>
-                
-            </div><br>
-            <div id="googleMap"></div>
-		</header>
-		<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-				
-				  <!-- content inside the modal -->
-				  <div class="modal-content">
-					<div class="modal-header">
-					  <button type="button" class="close" data-dismiss="modal">&times;</button>
-					  <h4 class="modal-title">Tickets</h4>
+							.pass{
+							  width:500px;
+							}
+							.travel-logo{
+							  float:left;
+							  font-size:50px;
+							  font-family: 'Sacramento', cursive;
+							  border: 1px solid white;
+							  padding: 0px 20px;
+							  border-left:none;
+							  border-top-right-radius:20px;
+							  background: white;
+							  color:brown;
+							  margin-left: 10px;
+							  font-weight: bold;
+
+							}
+							#book{
+							  margin-top: 15px;
+							  float: right;
+							  margin-right: 50px;
+							  border: 1px solid brown;
+							  border-radius: 50px;
+							  color:white;
+							  background: brown;
+							  word-spacing: 0px;
+							}
+							#book:hover{
+							  color:brown;
+							  background:white;
+							}
+
+
+							button{
+							  color:brown;
+							}
+							.view1{
+							  display: none;
+							}
+
+							.end{
+							  padding: 30px;
+							}
+							.modal-header{
+							  background: brown;
+							  padding:20px;
+							}
+							.modal-title{
+							  text-align: center;
+							  color:white;
+							  font-family: 'Josefin Slab', serif;
+							  font-size: 40px;
+
+							}
+
+							h4{
+							  font-family: 'Josefin Slab', serif;
+
+							}
+							.fa-instagram{
+							  font-size: 35px;
+							  float: left;
+							  margin-left: 15%;
+							  color:black;
+							}
+							.fa-instagram:hover{
+							  color:#4B78C1;
+							}
+							.fa-twitter{
+							  font-size:35px;
+							  float: left;
+							  color:black;
+							}
+							.fa-twitter:hover{
+							  color:blue;
+							}
+							.fa-google-plus-official{
+							  font-size:35px;
+							  color:black;
+							}
+							.fa-google-plus-official:hover{
+							  color:red;
+							}
+							.fa-facebook-square{
+							  font-size:35px;
+							  color:black;
+							}
+							.fa-facebook-square:hover{
+							  color:blue;
+							}
+							.text{
+							  border-radius:50px;
+							  border: 1px solid brown;
+							}
+							h1{
+							    font-size: 50px;
+							    font-family: 'Josefin Sans', sans-serif;
+							    float: left;
+							    margin-left: 15%;
+							    margin-top: 7%;
+							    line-height: 100%;
+							    font-weight: 900;
+							}
+							.spec{
+							    float: left;
+							    text-align: left;
+							    font-weight: bold;
+							    margin-left: 15%;
+							}
+
+							.image{
+							    width: 53%;
+							    padding-top: 6%;
+							    border-top-right-radius: 0px;
+							    border-bottom-left-radius: 100px;
+
+
+							}
+							.button{
+							    background:brown;
+							    color:white;
+							    border-top-right-radius: 20px;
+							    border:0px;
+							    margin-left: 15%;
+							    padding:2%;
+							    border-bottom-left-radius: 20px;
+							    padding-left:20px;
+							    padding-right: 20px;
+							    font-family: 'PT Sans', sans-serif;   
+							    box-shadow: 8px 8px  10px  #888888;
+
+
+							}
+							.alink{
+							    font-family: 'Poiret One', cursive;
+							    font-weight: bold;
+							    font-size:20px;
+							    color:brown;
+
+							}
+							.glyphicon-circle-arrow-right{
+							    font-size:30px;
+							    margin-top:20px;
+							}
+							/* for google map API */
+							#googleMap{
+							    width:40%;
+							    height:600px;
+							    border-top-right-radius: 100px;
+							    border-bottom-left-radius: 100px;
+							    float: right;
+							    margin-right:5%;
+							    box-shadow: 8px 8px  10px  #888888;
+							}
+
+							.more{
+							  color:white;
+
+							}
+							.more:hover{
+							  color:white;
+							}
+
+						</style>
+					</head>
+					<body>
+						<ul>
+							<li class="travel-logo">Travel</li>
+							<li><a href="plain.html">Home</a></li>
+							<li><a href="dubai.html">Dubai</a></li>
+							<li><a href="malta.html">Malta</a></li>
+							<li><a href="cancun.html" >Cancun</a></li>
+							<li><button type="button" class="btn btn-default btn-lg" id="book" data-toggle="modal" data-target="#myModal">Buy Tickets</button></li>
+					</ul>
+
+					<header>
+					    <div class="col-sm-5">
+						<h1>VACATION,<br> HAPPINESS,<br> DESIRE,<br> MEMORIES ALL START HERE. </h1> 
+						<p class="spec"> Many of the best vacation spots are being shown on this website. Dubai, Malta and Cancun are very beautiful places located very far from each other. If you thought the US is a beautiful place, think otherwise. Just have fun! </p>
+						<button class="button"><a  href="https://www.google.com" target="_blank" class="more"> Learn more</a></button> &nbsp;&nbsp; <a href="#pictures" class="alink">   Start browsing
+						</a><br> <br><br><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram" ></i></a>&nbsp;<a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus-official"></i></a>&nbsp;<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>&nbsp;<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a><Br></Br>
+
+					    </div><br>
+					    <div id="googleMap"></div>
+						</header>
+						<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog">
+
+								  <!-- content inside the modal -->
+								  <div class="modal-content">
+									<div class="modal-header">
+									  <button type="button" class="close" data-dismiss="modal">&times;</button>
+									  <h4 class="modal-title">Tickets</h4>
+									</div>
+									<div class="modal-body">
+									  <form action="/action.php">
+										  <h4>First Name:<br><input type="text" class="text"></h4> 
+										  <h4>Last Name: <br> <input type="text" class="text"></h4>
+										  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
+										  <h4 class="right"># of Tickets <br><input type="number"></h4>
+										  <button class="btn btn-success btn-lg">Submit</button> 
+										  <h2> Pricing: </h2>
+										  <table border="1">
+											<tr>
+											  <th># Of Tickets</th>
+											  <th>Age 0-8</th> 
+											  <th>Age 9+</th>
+											</tr>
+											<tr>
+											  <td>1</td>
+											  <td rowspan="2">$20</td>
+											  <td>$43</td>
+											</tr>
+											<tr>
+											  <td>2</td>
+											  <td>$86</td>
+											</tr>
+											<tr>
+											  <td>3</td>
+											  <td>$60</td>
+											  <td>$129</td>
+											</tr>
+										  </table>
+									</div>
+									<div class="modal-footer">
+									  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+								  </div>
+
+								</div>
+							  </div>
+
+							</div>
+
+
+
+							<Br><br><br><br><br><br><br><br><Br><Br><br><br><br><br><br><br><br><Br><Br><br><Br><Br><Br></Br></Br></Br><br><br><br><br><br><br><br><Br><Br><br><Br><Br><Br><hr></Br></Br></Br>
+
+						<div class="col-sm-4" id="dubai">
+							<br><br>
+							<h2 class="text1"> Dubai, UAE </h2>
+							<p> Dubai is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="dubai.html" class="mores"> Learn more </a></p>
+						</div>
+							    <img src="https://blog.thomascook.in/wp-content/uploads/2017/01/DUBAI-554088081-ABOVE0116.jpg" class="dubai" id="pictures"><br>
+						<br><br><img src="https://www.acsu.buffalo.edu/~scotthum/cancun-mexico.jpg" class="cancun"><br>
+						<div class="col-sm-4" id="cancun">
+							<br><br>
+							<h2 class="text1"> Cancun, Mexico</h2>
+							<p> Cancun is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="cancun.html" class="mores"> Learn more </a></p>
+						</div>
+						<div class="col-sm-4" id="malta">
+							<br><br>
+							<h2 class="text1"> Malta</h2>
+							<p> Malta is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="malta.html"class="mores"> Learn more </a></p>
+						</div>
+						<img src="http://josephbraude.com/wp-content/uploads/2016/10/malta-country.jpg" class="dubai">
+
+
+
+						<script>
+							function myMap() {
+								var mapProp= {
+								center:new google.maps.LatLng(24,60),
+								zoom:4,
+								};
+								var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+							}
+
+							window.sr = ScrollReveal();
+							sr.reveal('#cancun');
+							sr.reveal('#malta');
+							sr.reveal('#dubai');
+							sr.reveal('.col-sm-6');
+							sr.reveal('.pass');
+							sr.reveal('.cancun');
+							sr.reveal('.dubai');
+							sr.reveal('#googleMap', { duration: 1000 });
+							sr.reveal('.spec',{duration: 4000});
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUuMuElFsctlhd4Hoio8F3t95fKhauPP8&callback=myMap"></script>
+
+						<footer>
+							<div class="end">
+								<h3 class="foot"> Made by Turki Aloufi <br> 	&copy;2017 by Turki's Corporations <br> </h3>
+
+							</div>
+						</footer>
+
+						<div class="bgimg-2">
+						  <div class="view1">
+						    <span class="word">Sorry Mr.Pizzo, your screen needs to be at-least 1365 pixels wide to view this website </span>
+						  </div>
 					</div>
-					<div class="modal-body">
-					  <form action="/action.php">
-						  <h4>First Name:<br><input type="text" class="text"></h4> 
-						  <h4>Last Name: <br> <input type="text" class="text"></h4>
-						  <h4>Date: <br><input type="month" name="bdaymonth"></h4>
-						  <h4 class="right"># of Tickets <br><input type="number"></h4>
-						  <button class="btn btn-success btn-lg">Submit</button> 
-						  <h2> Pricing: </h2>
-						  <table border="1">
-							<tr>
-							  <th># Of Tickets</th>
-							  <th>Age 0-8</th> 
-							  <th>Age 9+</th>
-							</tr>
-							<tr>
-							  <td>1</td>
-							  <td rowspan="2">$20</td>
-							  <td>$43</td>
-							</tr>
-							<tr>
-							  <td>2</td>
-							  <td>$86</td>
-							</tr>
-							<tr>
-							  <td>3</td>
-							  <td>$60</td>
-							  <td>$129</td>
-							</tr>
-						  </table>
-					</div>
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				  </div>
-				  
-				</div>
-			  </div>
-			  
-			</div>
-	
 
-	
-			<Br><br><br><br><br><br><br><br><Br><Br><br><br><br><br><br><br><br><Br><Br><br><Br><Br><Br></Br></Br></Br><br><br><br><br><br><br><br><Br><Br><br><Br><Br><Br><hr></Br></Br></Br>
-        
-		<div class="col-sm-4" id="dubai">
-			<br><br>
-			<h2 class="text1"> Dubai, UAE </h2>
-			<p> Dubai is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="dubai.html" class="mores"> Learn more </a></p>
-		</div>
-			    <img src="https://blog.thomascook.in/wp-content/uploads/2017/01/DUBAI-554088081-ABOVE0116.jpg" class="dubai" id="pictures"><br>
-		<br><br><img src="https://www.acsu.buffalo.edu/~scotthum/cancun-mexico.jpg" class="cancun"><br>
-		<div class="col-sm-4" id="cancun">
-			<br><br>
-			<h2 class="text1"> Cancun, Mexico</h2>
-			<p> Cancun is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="cancun.html" class="mores"> Learn more </a></p>
-		</div>
-		<div class="col-sm-4" id="malta">
-			<br><br>
-			<h2 class="text1"> Malta</h2>
-			<p> Malta is one of the most popular places for tourists. It has good food and fancy hotels. Also, there are many activities you can do there. You will get an amazing experiance if you go there. <a href="malta.html"class="mores"> Learn more </a></p>
-		</div>
-		<img src="http://josephbraude.com/wp-content/uploads/2016/10/malta-country.jpg" class="dubai">
+				    </body>
 
-
-
-		<script>
-			function myMap() {
-				var mapProp= {
-		    		center:new google.maps.LatLng(24,60),
-		    		zoom:4,
-				};
-				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-			}
-
-			window.sr = ScrollReveal();
-			sr.reveal('#cancun');
-			sr.reveal('#malta');
-			sr.reveal('#dubai');
-			sr.reveal('.col-sm-6');
-			sr.reveal('.pass');
-			sr.reveal('.cancun');
-			sr.reveal('.dubai');
-			sr.reveal('#googleMap', { duration: 1000 });
-			sr.reveal('.spec',{duration: 4000});
-		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUuMuElFsctlhd4Hoio8F3t95fKhauPP8&callback=myMap"></script>
-
-		<footer>
-			<div class="end">
-				<h3 class="foot"> Made by Turki Aloufi <br> 	&copy;2017 by Turki's Corporations <br> </h3>
-
-			</div>
-		</footer>
-
-		<div class="bgimg-2">
-		  <div class="view1">
-		    <span class="word">Sorry Mr.Pizzo, your screen needs to be at-least 1365 pixels wide to view this website </span>
-		  </div>
-        </div>
-        
-    </body>
-
-</html>
+				</html>
